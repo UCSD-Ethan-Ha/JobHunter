@@ -5,9 +5,9 @@ Project will be built by hand and from scratch (except for some boilerplate stuf
 
 
 ## Tech Stach
-- TypeScript (frontend)
-- Express.js (backend)
-- Claude code (For debugging and guiding)
+- TypeScript for frontend
+- Express.js + TypeScript for backend
+- Claude code for debugging and guiding
 - Postgres for DB
 
 
