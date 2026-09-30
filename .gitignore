@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Claude Code — settings.json IS committed; only local overrides are ignored
+.claude/settings.local.json
+
+# Real application data (this repo is public)
+/data/
+*.dump
+*.sql.gz
+*.sqlite
+
+# Test output
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(./src/**)",
+      "Write(./src/**)",
+      "Edit(./tests/**)",
+      "Write(./tests/**)",
+      "Edit(./migrations/**)",
+      "Write(./migrations/**)"
+    ]
+  }
+}
